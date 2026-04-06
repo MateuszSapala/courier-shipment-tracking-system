@@ -9,8 +9,5 @@ public class Main {
 
         // TODO: Use the SSCC of the newly created shipment to update it's status.
         courierCompany.updateShipmentStatus(null, null);
-
-        final var lateShipments = courierCompany.getLateShipments();
-        System.out.println("Late shipments report: " + lateShipments);
     }
 }

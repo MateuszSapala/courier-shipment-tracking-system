@@ -6,18 +6,13 @@ package sapala;
  * TODO: Update method signatures to use specific data models instead of generic Objects.
  */
 public class CourierCompany {
+    // TODO: Add storage for shipments
+
     public void addShipment(Object shipment) {
         throw new UnsupportedOperationException(); //TODO implement method
     }
 
     public void updateShipmentStatus(Object shipmentSscc, Object newStatus) {
-        throw new UnsupportedOperationException(); //TODO implement method
-    }
-
-    /**
-     * Generates a report of shipments that haven't been completed since more than 7 days.
-     */
-    public Object getLateShipments() {
         throw new UnsupportedOperationException(); //TODO implement method
     }
 }
